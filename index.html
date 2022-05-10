@@ -50,20 +50,20 @@
       <div class="trend-box-item">
         <a class="trend-box-link" href="#">lifestyle</a>
         <a class="trend-box-link" href ="#">interior</a>
-        <a href="#"><h3 class="trend-box-header">сейчас в тренде: сад на подоконнике</h3></a>
+        <a href="#"><h3 class="trend-box-header">сейчас в тренде: сад<br>на подоконнике</h3></a>
       </div>  
     </div>
     <div class="trend-box-info chees">
       <div class="trend-box-item">
         <a class="trend-box-link" href="#">food</a>
-        <a href="#"><h3 class="trend-box-header">сыры на красивых картинках из интернета: какие они на вкус?</h3></a>
+        <a href="#"><h3 class="trend-box-header">сыры на красивых<br>картинках из интернета:<br>какие они на вкус?</h3></a>
       </div>  
     </div>
     <div class="trend-box-info expedition">
       <div class="trend-box-item">
         <a class="trend-box-link" href="#">lifestyle</a>
         <a class="trend-box-link" href ="#">travel</a>
-        <a href="#"><h3 class="trend-box-header">собираемся в первый поход в горы</h3></a>
+        <a href="#"><h3 class="trend-box-header">собираемся в первый<br>поход в горы</h3></a>
       </div>  
     </div>
     <div class="trend-box-info lemon">
@@ -88,7 +88,7 @@
             <span class="main-date date">10 июня 2019</span>
             <span class="main-author">Неизвестный автор</span>
           </div>
-          <p class="main-info-text">Итак, вы в Питере. Раннее утро. Лед с рек и каналов уже ушел, запущены фонтаны города... Музеи ещё закрыты. Что помотреть?</p>
+          <p class="main-info-text">Итак, вы в Питере. Раннее утро. Лед с рек и каналов уже ушел, запущены фонтаны города... Музеи ещё закрыты. Что поcмотреть?</p>
       </div>
     </div>
     <div class="main-box">
@@ -114,10 +114,11 @@
             <span class="main-author">Неизвестный автор</span>
           </div>
           <p class="main-info-text">Лето на носу, а с ним и музыкальные фестивали. На каком же из них вы разобьете свою палатку?</p>
+          <p class="main-festival">Мы составили список лучших летних фестивалей по всему миру</p>
       </div>
     </div>
     <div class="main-box">    
-        <img class="main-img" src="images/last-post4.jpg"> 
+        <img class="main-img" src="images/last-post4.jpg">
       <div class="main-info">
         <a class="main-info-link" href="#">lifestyle</a>
         <a class="main-info-link" href="#">food</a>
@@ -140,7 +141,7 @@
             <span class="main-date date">10 июня 2019</span>
             <span class="main-author">Неизвестный автор</span>
           </div>
-          <p class="main-info-text">Подушки для дивана целесообразнее заказать в съемных чехлах на молнии, если потребуется чистка подушек, проще снять чехлы, чем везти подушку в химчистку.</p>
+          <p class="main-info-text">Подушки для дивана целесообразнее заказать в съемных чехлах на молнии, если потребуется<br>чистка подушек, проще снять чехлы, чем везти подушку в химчистку.</p>
       </div>
     </div>  
   </main>
@@ -307,7 +308,7 @@
         <source media="(max-width: 640px)" srcset="images/shop-item-mobile3.jpg">
         <img class="product-img" src="images/shop-item-desk3.jpg"> 
       </picture>
-      <div class="product-content">
+      <div class="product-content-frame">
         <div class="product-header">
           <h3 class="product-header-title">шестиугольная рамка</h3>
           <p class="product-text">Необычная рамка для украшения дома из видео<a class="product-link" href="#"> "Как сделать рамку из подручных средств за 30 минут"</a></p>
@@ -345,6 +346,54 @@
     <span class="copyright-text">Copyright © 2009–2019 City Blog LLC.</span>   
   </div> 
 </footer>
+
+<div class="popup popup-active">
+  <div class="popup-container">
+    <button class="popup-close" type="button">
+      <span class="popup-close-text">Закрыть окно</span> 
+    </button>
+    <header class="popup-header">
+      <h3 class="popup-title">ваш фидбек</h3>
+    </header>
+    <div class="popup-content">
+    <form class="form">
+      <div class="popup-form-row">
+       <label class="popup-form-group">
+       <span class="popup-form-hint">Как часто вы заходите на сайт?</span>
+      <select class="select">
+        <option selected>Почти каждый день</option>
+        <option>Раз в несколько дней</option>
+        <option>Раз в несколько недель</option>
+        <option>Несколько раз в год</option>
+      </select>
+    </label>      
+  </div>
+  <div class="popup-form-row">
+    <div class="popup-form-group">
+      <span class="popup-form-hint">Вы подписаны на e-mail рассылку?</span>
+      <label class="radio-group">
+        <input type="radio" class="radio" name="radio-group" required>
+        <span class="radio-group-text">Да</span>
+      </label>
+      <label class="radio-group">
+        <input type="radio" class="radio" name="radio-group" required>
+        <span class="radio-group-text">Нет</span>
+      </label>  
+    </div>
+  </div>
+       <div class="popup-form-row">
+      <label class="popup-form-group">
+        <span class="popup-form-hint">Расскажите, какой контент вы хотели бы видеть<br>на нашем сайте?</span>
+        <textarea class="field textarea" placeholder="Может, больше рецептов?" required></textarea>
+      </label>
+    </div>
+      <div class="form-row">
+    <button class="button">Отправить</button>
+  </div>
+      </form>
+    </div>
+  </div>  
+</div>
 
 </body>
 </html>
